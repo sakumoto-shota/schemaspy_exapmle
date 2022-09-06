@@ -34,7 +34,7 @@ docker run \
   -v $PWD/output:/output \
   -v $PWD/schemaspy.properties:/schemaspy.properties \
   -t pgsql \
-  -host ${HOST}:${PORT} -db ${DB} -u ${USER} -p ${PASSWORD} 
+  -host ${HOST}:${PORT} -db ${DB} -u ${USER} -p ${PASSWORD} -s ${DB}
 ```
 
 ### wordpress DBのテスト
