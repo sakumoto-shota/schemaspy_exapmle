@@ -53,6 +53,8 @@ $ bash
 
 # 本家GITHUB
 
-for (schemaspy)(https://github.com/schemaspy/schemaspy)
+for [schemaspy](https://github.com/schemaspy/schemaspy)
 
 
+# example
+[author](https://blog.foodit.co.jp/)
