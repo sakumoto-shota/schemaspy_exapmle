@@ -37,6 +37,18 @@ docker run \
   -host ${HOST}:${PORT} -db ${DB} -u ${USER} -p ${PASSWORD} 
 ```
 
+### wordpress DBのテスト
+
+```:shell
+$ docker-compose --file docker-compose-wordpress.yml up -d
+echo "DBTYPE=mysql
+HOST=localhost
+PORT=3333
+DB=wordpress
+USER=wordpress
+PASSWORD=wordpress" > .env
+$ bash
+```
 
 
 # 本家GITHUB
