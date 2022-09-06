@@ -47,7 +47,18 @@ PORT=3333
 DB=wordpress
 USER=wordpress
 PASSWORD=wordpress" > .env
-$ bash
+$ bash schema.sh 
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Using drivers:jtds-1.3.1.jar, mariadb-java-client-1.1.10.jar
+mysql-connector-java-8.0.28.jar, postgresql-42.3.5.jar
+  ____       _                          ____
+ / ___|  ___| |__   ___ _ __ ___   __ _/ ___| _ __  _   _
+ \___ \ / __| '_ \ / _ \ '_ ` _ \ / _` \___ \| '_ \| | | |
+  ___) | (__| | | |  __/ | | | | | (_| |___) | |_) | |_| |
+ |____/ \___|_| |_|\___|_| |_| |_|\__,_|____/| .__/ \__, |
+                                             |_|    |___/
+
+                                              6.1.1-SNAPSHOT
 ```
 
 
