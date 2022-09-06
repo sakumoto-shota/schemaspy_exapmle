@@ -57,4 +57,4 @@ for [schemaspy](https://github.com/schemaspy/schemaspy)
 
 
 # example
-[author](https://blog.foodit.co.jp/)
+[author xshsaku](https://blog.foodit.co.jp/)
